@@ -1,5 +1,5 @@
-# Jstor Labs Topic Inference
-A .NET Console app that queries Jstor Labs' Topic Inferencer API to get a list of topics relevant to a given document.
+ # Jstor Labs Topic Inference
+A .NET Console app that queries [Jstor Labs' Topic Inferencer](http://labs.jstor.org/api/docs/) to get a list of topics relevant to a given document.
 
 ### Usage
 JstorLabsInferTopics.dll URL_OR_PATH_TO_FILE
@@ -7,7 +7,7 @@ JstorLabsInferTopics.dll URL_OR_PATH_TO_FILE
 You could also compile as an executable and just use JstorLabsInferTopics.
 
 ### Jstor API Key
-You will need to acquire a free API key to use Jstor's API. See [Jstor Labs API docs](http://labs.jstor.org/api/docs/) for more info.
+You will need to acquire a free API key to use Jstor's API. See [Jstor Labs API docs](http://labs.jstor.org/api/docs/) for more info. Replace the value for JstorToken in JstorLabsInferTopics.cs with your key.
 
 ### Notes
 When developing from Visual Studio, use ctrl-F5 to keep the console open after the app executes. The application will run with the default argument provided in Properties->Debug, which points to a [pdf online](http://labs.jstor.org/api/docs/).
