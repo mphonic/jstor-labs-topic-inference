@@ -2,7 +2,7 @@
   "profiles": {
     "JSTORAPI": {
       "commandName": "Project",
-      "commandLineArgs": "\"C:\\Users\\lloyd\\Google Drive\\rainey-anomia-essay-2016-09-06.pdf\""
+      "commandLineArgs": "http://www.parrhesiajournal.org/parrhesia27/Parrhesia27_Hui.pdf"
     }
   }
 }
